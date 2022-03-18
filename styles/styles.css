@@ -17,19 +17,8 @@ h3,
 h5 {
   color: white;
   font-weight: 200 !important;
-  /* font-size: 2.3rem !important;
-  
-  
-  @media (min-width: 768px) {
-    font-size: 1.5rem;
-  }
-  @media (min-width: 576px) {
-    font-size: 1rem;
-  }
-  @media (min-width: 991.98px) {
-    font-size: 2.3rem;
-  } */
 }
+/* Material icons styles */
 .material-icons {
   font-family: "Material Icons";
   font-weight: normal;
@@ -54,10 +43,10 @@ h5 {
   /* Support for IE. */
   font-feature-settings: "liga";
 }
-
+/* Make icon bigger on hover */
 .icon_email {
-  transition: transform 0.2s; /* Animation */
+  transition: transform 0.2s;
 }
 .icon_email:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.5);
 }
