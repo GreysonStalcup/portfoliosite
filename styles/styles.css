@@ -34,7 +34,7 @@ h5 {
   font-family: "Material Icons";
   font-weight: normal;
   font-style: normal;
-  font-size: 24px; /* Preferred icon size */
+  font-size: 36px; /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -53,4 +53,11 @@ h5 {
 
   /* Support for IE. */
   font-feature-settings: "liga";
+}
+
+.icon_email {
+  transition: transform 0.2s; /* Animation */
+}
+.icon_email:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
