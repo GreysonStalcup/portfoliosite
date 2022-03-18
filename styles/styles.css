@@ -3,7 +3,7 @@
   position: relative;
 }
 body {
-  background-color: #213769 !important;
+  background-color: #4d7298 !important;
 }
 .center {
   margin: 0;
@@ -32,4 +32,8 @@ i {
 }
 a {
   text-decoration: none;
+}
+.name {
+  color: #b3d89c;
+  font-weight: 400;
 }
