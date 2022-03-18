@@ -18,35 +18,18 @@ h5 {
   color: white;
   font-weight: 200 !important;
 }
-/* Material icons styles */
-.material-icons {
-  font-family: "Material Icons";
-  font-weight: normal;
-  font-style: normal;
-  font-size: 36px; /* Preferred icon size */
-  display: inline-block;
-  line-height: 1;
-  text-transform: none;
-  letter-spacing: normal;
-  word-wrap: normal;
-  white-space: nowrap;
-  direction: ltr;
 
-  /* Support for all WebKit browsers. */
-  -webkit-font-smoothing: antialiased;
-  /* Support for Safari and Chrome. */
-  text-rendering: optimizeLegibility;
-
-  /* Support for Firefox. */
-  -moz-osx-font-smoothing: grayscale;
-
-  /* Support for IE. */
-  font-feature-settings: "liga";
-}
 /* Make icon bigger on hover */
-.icon_email {
+i {
   transition: transform 0.2s;
 }
-.icon_email:hover {
+i:hover {
   transform: scale(1.5);
+}
+i {
+  font-size: 2.5rem;
+  padding-right: 10px;
+}
+a {
+  text-decoration: none;
 }
