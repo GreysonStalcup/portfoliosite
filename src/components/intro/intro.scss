@@ -1,0 +1,35 @@
+@import "../../global.scss";
+.intro {
+    background-color: $white;
+    display: flex;
+    
+
+    .left {
+        flex: 0.5;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .welcomeText {
+            
+            width: 75%;
+            float: right;
+            h1 {
+                font-size: 3rem;
+                text-align: center;
+            }
+            span {
+                color: $primary-blue;
+            }
+            .title {
+                text-align: center;
+                padding-top: 20px;
+            }
+            
+        }
+    }
+    .right {
+        flex: 0.5;
+        
+    }
+}
