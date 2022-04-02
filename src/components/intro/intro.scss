@@ -11,7 +11,11 @@
         justify-content: center;
         align-items: center;
         .welcomeText {
-            
+            display: inline-block;
+            .waver {
+                
+                
+            }
             width: 75%;
             float: right;
             h1 {
@@ -30,6 +34,24 @@
     }
     .right {
         flex: 0.5;
-        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .contactButton {
+            background: $primary-blue;
+            width: 50%;
+            border-radius: 40px;
+            height: 40px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            & > a {
+                display: block;
+                justify-self: center;
+                line-height: 40px;
+                color: white;
+                text-decoration: none;
+            }
+        }
     }
 }
